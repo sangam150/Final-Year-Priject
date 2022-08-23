@@ -1,0 +1,29 @@
+{
+  "name": "signdapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js",
+    "dev": "lite-server"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "browserify": "^16.2.0",
+    "eth-sig-util": "^1.4.2",
+    "ethereumjs-util": "^5.1.5",
+    "ethjs": "^0.3.6",
+    "maticjs": "^1.0.1",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.3",
+    "lite-server": "^2.3.0"
+  },
+  "description": ""
+}
